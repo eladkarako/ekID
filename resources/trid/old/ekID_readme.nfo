@@ -1,0 +1,15 @@
+
+ekID - File Identification / Elad Karako 2011 .            
+
+Usage: ekID <[path]filespec(s)...> [-ae|-ce] [-d:file] [-ns] [-r:nn]
+                                   [-v] [-w] [-?]
+
+Where: <filespec> Files to identify/analyze
+       -ae        Add guessed extension to filename
+       -ce        Change filename extension
+       -d:file    Use the specified defs package
+       -ns        Disable unique strings check
+       -r:nn      Display the first nn matches (default: 5)
+       -v         Verbose mode - display def name, author, etc.
+       -w         Wait for a key before exiting
+       -?         This help!
